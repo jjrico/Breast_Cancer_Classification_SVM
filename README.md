@@ -1,26 +1,25 @@
-Breast Cancer Prediction Using Support Vector Machine (SVM) Binary Classifcation
-By: Jeremy Rico
-Timestamp: 23 Jul, 2020 11:13
-Background Information
+# Breast Cancer Prediction Using Support Vector Machine (SVM) Binary Classifcation
+## By: Jeremy Rico
+## Timestamp: 23 Jul, 2020 11:13
 
-Introduction:
+### Background Information:
 
 Breast cancer is the most common type of cancer in women worldwide. With massive amounts of research being done in this area, it is well knows that early detection is one of the most important factors when it comes to saving the life of the patient. Modern Machine Learning techniques can play a large role in identifying whether a tumor is malignant (cancerous) or benign (not cancerous). This projects aims to identify a tumor as malignant or benign based on its physical charactieristics. By recognizing the danger of the tumor early, the patient has a much greater chance of surviving.
 
-Desctiption:
+### Desctiption:
 
 The code works by using a Support Vector Machine (SVM) to classify the input as either one of two options (0 or 1, hence the binary classification). By feeding the network multiple samples of tumors which have already been classified has malignant or benign, it will be able to identify new cases with a high accuracy.
 
-Attribute information:
+### Attribute information:
 
 The network will be fed digitized images of a fine needle aspirate (FNA) of breast mass. Each image will be labeled with an ID number and an M (malignant) or a B (benign). Then, we will calculate 10 features of the cells in the images as seen below.
 
-Attributes:
+   Attributes:
 
     ID Number
     Diagnosis (M = malgnant, B = benign)
 
-Features to be computed for each cell nucleus:
+   Features to be computed for each cell nucleus:
 
     Radius (mean of distance from center to points on the perimeter)
     Texture (std deviation of gray scale values)
@@ -33,7 +32,7 @@ Features to be computed for each cell nucleus:
     Symmetry
     Fractal dimension ("coastline approximation" - 1)
 
-Data
+### Data
 
 Cancer data will be imported from Sklearn library, but it can also be found here for download:
 
